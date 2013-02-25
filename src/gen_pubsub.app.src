@@ -1,0 +1,11 @@
+{application, gen_pubsub,
+    [
+        {description, "General-purpose publish/subscribe pattern"},
+        {vsn, git},
+        {applications, [
+                kernel,
+                stdlib,
+                gproc
+            ]}
+    ]
+}.
